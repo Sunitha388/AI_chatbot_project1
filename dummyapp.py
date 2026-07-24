@@ -101,10 +101,10 @@ Question:
 
     # Call FastAPI (also measure response time here)
     with st.spinner("🤖 Thinking..."):
-        start = time.time()
+        sstart = time.time()
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/chat",
+                "https://ai-chatbot-project1.onrender.com/chat",
                 json={
                     "message": prompt,
                     "session_id": st.session_state.session_id
