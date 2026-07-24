@@ -1,0 +1,9 @@
+streamlit
+fastapi
+uvicorn
+requests
+python-dotenv
+mysql-connector-python
+pydantic
+PyPDF2
+gTTS
